@@ -7,10 +7,11 @@
     "dev": "ts-node-dev --respawn --transpile-only --exit-child --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
     "test": "SET NODE_ENV=test&jest",
-    "posttest" : "rm ./src/database/database.test.sqlite"
+    "posttest": "rm ./src/database/database.test.sqlite"
   },
   "dependencies": {
     "express": "^4.17.3",
+    "nodemailer": "^6.7.2",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.2",
     "typeorm": "^0.2.45",
