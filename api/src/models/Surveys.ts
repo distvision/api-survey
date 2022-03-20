@@ -12,7 +12,7 @@ class Surveys{
   title: string;
 
   @Column()
-description: string;
+  description: string;
 
   @CreateDateColumn()
   created_at: Date
